@@ -1,5 +1,6 @@
 <?php ?>
-
+<footer>
+    <h2>Footer</h2>
+</footer>
 </body>
 </html>
-<h2>Footer</h2>

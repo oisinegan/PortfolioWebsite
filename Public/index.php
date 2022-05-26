@@ -1,38 +1,49 @@
 <?php require '../Templates/header.php'?>
 
+
+    <div class="middle-container">
     <!--Big image-->
     <div class="imgContainer">
         <div class="img">
-            <img id="imgSize" src="img/homeImage.jpeg" alt="Image showing products">
+            <img id="imgSize" src="img/ProfileImg.jpeg" alt="Image showing products">
         </div>
     </div>
     <!--Message-->
     <div class="message">
-        <h1>Retro Football Shirts</h1>
-        <p>Our retro football shirts collection is inspired by our deep love for the history of the game and is our special tribute to memorable club teams, national teams and players to have graced the game over the past century.
+        <h1 id="aboutHeading">About me</h1>
+        <p> I am Oisin Egan and I am  21 years old. I study BSc (Hons) Computing in the Technological University Dublin (Course code: Tu860). I am progressing into my third year of studies. Over the first two years of studying computing I have achieved a 3.5 gpa or more each year.
             <br><br>
-            With every 100 euros we make we donate 20 euros to the <a href="https://footballfoundation.org.uk/" id="footballFoundation">football foundation.</a>We know how important grassroot football is to all communites nationwide.
-            <br><br>
-            Football Foundation - "We deliver outstanding grassroots football facilities, which means better games and more players - helping transform communities where demand is greatest and impact will be strongest."</p>
+            I enjoy programming, problem solving and learning new things. I am interested in both front end and backend technologies including but not limited to Java, PHP and C#.  </p>
+        <br><br>
+            and so on
     </div>
     <!--Links to different pages-->
     <div class="grid-inner-container">
         <div class="link1"><br><br>
-            <img class="icons" src="images/productIcon.png" alt="Cart icon">
-            <p>Choose from a range of our products that varies from English premier league to abroad leagues! <br><br>
-                We ensure that all of our products are to the highest standards. To keep up with our high customer satisfaction rate.<br>
+            <div class="imageBackground1"> <img id="icon1" src="img/codeIconWhite.png" alt="Skills" height="60" width="60"></div>
+            <h2 class="colHeading">Skills</h2>
+            <p>To date, with the aid of college and self learning I have developed skills in different areas of IT including front end, back end, networking and operating systems.
+                <br><br>I always try to constantly add to my existing knowledge. <br>
             </p>
-            <label class="labelLinks">We Provide:</label>
+            <label class="labelLinks">My skills include:</label>
             <ul class="list1">
-                <li>Authentic Jerseys</li>
-                <li>Free returns</li>
-                <li>Authentic brands</li>
-                <li>Products are 100% polyester</li>
+
+                <li>Java</li>
+                <li>PHP</li>
+                <li>Javascript</li>
+                <li>C#</li>
+                <li>SQL</li>
+                <li>Html/css</li>
+                <li>JQuery</li>
+                <li>Java Swing</li>
+                <li>Unity</li>
+                <li>Networking</li>
+                <li>and more..</li>
             </ul>
-            <a href="products.html"><input class="buttons" type="button" value="Shop now!"></a>
+
         </div>
-        <div class="link2"><br><br>
-            <img class="icons" src="images/findUsIcon.png" alt="Map icon">
+        <!--<div class="link2"><br><br>
+            <img class="icons" src="images/findUsIcon.png" alt="Frameworks">
             <p>We have numerous stores nation wide. Directions on how to find us can be found by clicking the link.</p>
             <label class="labelLinks">We have stores located in:</label>
             <ul>
@@ -41,29 +52,21 @@
                 <li>Galway</li>
             </ul>
             <a href="findus.html"><input class="buttons" type="button" value="Find us!"></a>
-        </div>
+        </div> -->
         <div class="link3"><br><br>
-            <img class="icons" src="images/imageIcon.png" alt="Images icon">
-            <p id="imagePara">Take a glance at our gallery where you can see our  100% authentic jerseys, along with your favourite ex footballers wearing our Retro Shirts!</p>
-            <img id="logo" src="images/logo.png" alt="Company logo">
-            <a href="gallery.html"><input class="buttons" type="button" value="Show me!"></a>
+            <div class="imageBackground2"><img id="icon2" src="img/collegeIconWhite.png" alt="Notable College modules" height="80" width="80"></div>
+            <h2 class="colHeading">College modules</h2>
+            <p>From my first two years of studying computing. I have completed multiple modules that will beneficial towards my future career including: <br><br> </p><p id="para"> <bold>Object-Oriented Analysis and Design</bold>  <br><br>
+                <bold>Software Engineering and Testing</bold><br><br> <bold>Web development</bold>  <br><br> <bold>Advanced programming</bold> <br><br>
+                <bold>Database Fundamentals</bold> <br><br> <bold>Interactive multimedia</bold> <br><br> <bold>Networking</bold> <br><br> <bold>Operating systems</bold> <br><br></p>
+
 
         </div>
     </div>
-    <!--Footer-->
-    <div class="footer">
-        <div class="socials">
-            <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook logo"></a>
-            <a href="https://www.instagram.com/"><img src="images/insta.png" alt="instagram logo"></a>
-            <a href="https://twitter.com/?lang=en"> <img src="images/twitter.png" alt="Twitter logo"></a>
-        </div>
-        <div class="footerLogo">
-            <a href="index.html"> <img src="images/logo.png" alt="logo"></a>
-        </div>
-        <div class="contactInfo">
-            <p id="contact">093 033 1345 <br> RetroFootballShirts@gmail.com <br>27 Upper Grafton Street, Dublin 2.</p>
-        </div>
     </div>
+
     </div>
+
+
 
 <?php require '../Templates/footer.php'?>
