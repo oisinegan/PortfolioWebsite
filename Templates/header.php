@@ -10,6 +10,11 @@
 
     <!-- Link to external stylesheet for the navbar drop down icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Footer-->
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/footers/">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <script type="text/javascript" src="js/nav.js"></script>
 
 

@@ -22,10 +22,10 @@
         <div class="link1"><br><br>
             <div class="imageBackground1"> <img id="icon1" src="img/codeIconWhite.png" alt="Skills" height="60" width="60"></div>
             <h2 class="colHeading">Skills</h2>
-            <p>To date, with the aid of college and self learning I have developed skills in different areas of IT including front end, back end, networking and operating systems.
-                <br><br>I always try to constantly add to my existing knowledge. <br>
+            <p>To date, with the aid of college and self learning I have developed skills in different areas of IT including front end, back end, networking and operating systems which including:
+                <br>
             </p>
-            <label class="labelLinks">My skills include:</label>
+
             <ul class="list1">
 
                 <li>Java</li>
@@ -56,16 +56,83 @@
         <div class="link3"><br><br>
             <div class="imageBackground2"><img id="icon2" src="img/collegeIconWhite.png" alt="Notable College modules" height="80" width="80"></div>
             <h2 class="colHeading">College modules</h2>
-            <p>From my first two years of studying computing. I have completed multiple modules that will beneficial towards my future career including: <br><br> </p><p id="para"> <bold>Object-Oriented Analysis and Design</bold>  <br><br>
-                <bold>Software Engineering and Testing</bold><br><br> <bold>Web development</bold>  <br><br> <bold>Advanced programming</bold> <br><br>
-                <bold>Database Fundamentals</bold> <br><br> <bold>Interactive multimedia</bold> <br><br> <bold>Networking</bold> <br><br> <bold>Operating systems</bold> <br><br></p>
+            <p>From my first two years of studying computing. I have completed multiple modules that will beneficial towards my future career including: <br><br> </p>
+            <ul class="list1">
+                <li>Object-Oriented Analysis and Design</li>
+                <li>Software Engineering and Testing</li>
+                <li>Web development</li>
+                <li>Advanced programming</li>
+                <li>Database Fundamentals</li>
+                <li>Interactive multimedia</li>
+                <li>Networking</li>
+                <li>Operating systems</li>
+            </ul>
+
+            <p id="line1">Click below to find out more about key things that each module has thought me. <br></p>
+            <!-- Button trigger modal -->
+            <button type="button" class="buttonStyle" data-toggle="modal" data-target="#exampleModalLong">
+                My knowledge
+            </button>
+
 
 
         </div>
     </div>
     </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Knowledge</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <b class="modal-body">
+                    <h5>Object-Oriented Analysis and Design</h5>
+                    Throughout this module, I designed <b>class diagrams</b> and <b>use-case diagrams</b>. As part of a team we designed class diagrams and use-case diagrams for an online gym system. Then created the system using <b>php</b>.
+
+                    <br><br>
+                    <h5>Software engineering and testing</h5>
+                    Software engineering and testing was focused on the <b>software development life cycle</b>. I also learned more about <b>Agile methodology</b>. As a team, we worked on an online-ecommerce store and had <b>weekly scrum meetings</b>. We completed proposals, requirements documents and UML diagrams and developed <b>use-case specs</b> for each use case. We then coded the ecommerce store using <b>html, css, bootstrap, php </b>and <b>SQL</b>. We also tested the project with <b>unit testing, validation testing and user interface testing </b> and more.
+
+                    <br><br>
+                    <h5>Web development</h5>
+                    Web development has been over 3 modules. Throughout web development I focused on <b>client-side </b> and <b>server-side</b>. With the client-side module, I used technologies to aid me to build a responsive site such as html, css, <b>javascript</b> and <b>JQuery</b>. In server-side I learned how to connect a site to a <b>database</b> using <b>pdo's</b> along with learning about <b>MVCs</b> and <b>Automated testing</b>.
+
+                    <br><br>
+                    <h5>Advanced programming</h5>
+                    In advanced programming, I learnt and completed weekly exercises on the complex side of <b>java</b> including <b>Threads, Recursion, Internationalization,OOP, Reflection, Generics </b> and <b>Lambdas</b>.
+
+                    <br><br>
+                    <h5>Database fundamentals</h5>
+                    In database fundamentals, I focused on <b>designing databases</b> and learning more about the <b>SQL</b> language to manipulate database entries.
+
+                    <br><br>
+                    <h5>Interactive MultiMedia</h5>
+                    In this module, I worked as part of a team to develop a game using <b>unity</b> and <b>C#</b>. The game was a mix of a first-person zombie survival and escape rooms. Throughout this module I learned a lot including the importance of <b>version control</b> and <b>game design</b>.
+
+                    <br><br>
+                    <h5>Networking</h5>
+                    Networking has been over 4 modules to date. Throughout networking I have gained knowledge in multiple aspects of networking including <b>LAN</b> and <b>WAN switching and routing</b> as well as <b>troubleshooting enterprise networks</b>. I also have learned more and how to implement networking techniques including <b>STP, standard/extends ACLs, configuring NAT services to provide scalability</b> and more.
+
+                    <br><br>
+                    <h5>Operating systems</h5>
+                    This module has been a follow on from previous modules which included learning about <b>computer hardware</b> and <b>hardware operations</b>. In operating systems I gained more knowledge about <b>Threads, process synchronisation, thread structures and scheduling</b>. I also <b>researched</b> how <b>Mutex locks</b> solves the <b>Dining Philososphers Problem</b> along with the advantages and disadvantages of the solution.
+
+                </b>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
 
     </div>
+    </div>
+
 
 
 

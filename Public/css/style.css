@@ -109,7 +109,7 @@ p,ul{
     width: 100%;
 }
 /*Responsive*/
-@media screen and (max-width:1099px){
+@media screen and (max-width:899px){
     .middle-container{
         display: grid;
         grid-template-areas:
@@ -121,7 +121,7 @@ p,ul{
         padding: 2em;
     }
 }
-@media screen and (min-width:1700px){
+@media screen and (min-width:1000px){
   .middle-container{
       padding-left: 10em;
       padding-right: 10em;
@@ -157,7 +157,7 @@ p,ul{
         'link1 link3';
     grid-auto-rows: minmax(100px,auto);
     grid-gap: 2em;
-    padding-top: 10em;
+    padding-top: 6em;
 
 }
 #para{
@@ -190,6 +190,10 @@ p,ul{
     border-radius: 1em;
     color: white;
 }
+.list1 > li{
+    margin: 10px 0;
+}
+
 #icon1,#icon2{
     display: block;
     margin-left: auto;
@@ -283,8 +287,37 @@ p,ul{
 
 }
 
+.buttonStyle{
+    height: 2.5em;
+    width:  6em;
+    font-size: 1.2em;
+    width: 100%;
+    color: white;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    margin-top: 2em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border: 1px solid black;
+}
+#line1{
+    padding-bottom: 3em;
+}
+
+.iconFooter{
+    background-color: navy;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconFooterItems{
+    padding: .5em 1em;
+}
+
 footer{
     background-color: navy;
     color: white;
     padding: 2em;
+
 }
