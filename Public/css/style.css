@@ -1,6 +1,7 @@
 html {
      box-sizing: border-box;
     font-family: arial, helvetica, sans-serif;
+    background-color: navy;
 }
 img {
     max-width: 100%;
@@ -12,7 +13,7 @@ img {
 body {
     padding: 0;
     margin: 0;
-
+    background-color: navy;
 }
 p,ul{
     font-size: 1.2em;
@@ -32,8 +33,8 @@ p,ul{
     display: grid;
     grid-template-areas:
 
-        'IMG IMG  message  message'
-        'grid-inner-container grid-inner-container grid-inner-container grid-inner-container';
+        'IMG IMG IMG IMG message message  message'
+        'grid-inner-container grid-inner-container grid-inner-container grid-inner-container grid-inner-container grid-inner-container grid-inner-container';
 }
 .grid-container > *{
     border: 1px solid black;
@@ -159,6 +160,9 @@ p,ul{
     grid-gap: 2em;
     padding-top: 6em;
 
+}
+#nameStyle{
+    color: navy;
 }
 #para{
     text-align: center;
@@ -286,7 +290,9 @@ p,ul{
     }
 
 }
-
+.modal-footer{
+    background-color: white;
+}
 .buttonStyle{
     height: 2.5em;
     width:  6em;

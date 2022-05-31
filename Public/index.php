@@ -11,7 +11,7 @@
     <!--Message-->
     <div class="message">
         <h1 id="aboutHeading">About me</h1>
-        <p> I am Oisin Egan and I am  21 years old. I study BSc (Hons) Computing in the Technological University Dublin (Course code: Tu860). I am progressing into my third year of studies. Over the first two years of studying computing I have achieved a 3.5 gpa or more each year.
+        <p> I am <span id="nameStyle"><b>Oisin Egan</b></span> and I am  21 years old. I study BSc (Hons) Computing in the Technological University Dublin (Course code: Tu860). I am progressing into my third year of studies. Over the first two years of studying computing I have achieved a 3.5 gpa or more each year.
             <br><br>
             I enjoy programming, problem solving and learning new things. I am interested in both front end and backend technologies including but not limited to Java, PHP and C#.  </p>
         <br><br>
@@ -74,22 +74,22 @@
                 My knowledge
             </button>
 
-
-
         </div>
     </div>
     </div>
+
+
     <!-- Modal -->
     <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Knowledge</h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <b class="modal-body">
+                <div class="modal-body">
                     <h5>Object-Oriented Analysis and Design</h5>
                     Throughout this module, I designed <b>class diagrams</b> and <b>use-case diagrams</b>. As part of a team we designed class diagrams and use-case diagrams for an online gym system. Then created the system using <b>php</b>.
 
@@ -120,15 +120,18 @@
                     <br><br>
                     <h5>Operating systems</h5>
                     This module has been a follow on from previous modules which included learning about <b>computer hardware</b> and <b>hardware operations</b>. In operating systems I gained more knowledge about <b>Threads, process synchronisation, thread structures and scheduling</b>. I also <b>researched</b> how <b>Mutex locks</b> solves the <b>Dining Philososphers Problem</b> along with the advantages and disadvantages of the solution.
-
-                </b>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-
                 </div>
             </div>
         </div>
+    </div>
+
+
+
+
+
 
     </div>
     </div>
